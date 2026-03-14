@@ -1,0 +1,57 @@
+create subject  -  1  
+			2
+				3
+					4
+						5
+							final - creating subject -> in (your subjects)
+
+
+
+
+news     1              2                       1 ->          (pictures)
+	3		4				      texts in english
+	5		6				      question_bar if internet - ai, that gets question, with the info on the page
+	7		8				      next day gets deleted from db and replaced on page
+  with google_api - without openai		
+
+
+stats	(something)	points    percentage	dificulty   your rank with activity   your rank with results   result
+	your activity |  150	|   59%	      |	  None	  |	you are loser	    |	you seem smart	     |1.1775 - 0.9065 	
+	python 1      |  20     |   79%	      |   Easy    |     you are good boy    |   you are good on this |1.5*79/100=1.185	1.9*79/100=1.501	(x (dificulty)= 1.5,y (your rank with activity) = 1.9)
+	C++	      |  15     |   39%	      |   Hard    |     you are lazy        |   you are ass on this  |3*39/100=1.17   0.8*39/100=0.312  	(x (dificulty)= 3 ,y (your rank with activity) = 0.8)
+	
+	
+	
+	quiz stats will be separated from all stats
+	quiz          |         |             |           |                         |                        |       
+	best quiz     | 	|   	      |		  |   			    |			     |                                
+quiz
+	(quiz will geet 20-new question, every 12 hours and will be removed oldest 10 question and 10 question after 12 hours from oldest questions )	
+																					      if you get more than 20 wrong answers, the quiz will end automatically
+	1	11		31						   55	                                              81                                      120 - is last and if you answer correctly, you have won 1 medal
+	2	12		32						   56						      82				      bronze medal for 100-108 correct answers, silver for 109-115, gold for 116-119, Diamond for 120 
+	3	13		33						   57						      83				      10% chance in every level, tha you get specified (5 minute) time for quiz
+	4	14		34						   58						      84
+	.			35						   59						      85
+	.			next (if more than 2 wrong answer, you are out)	   next(if more that 1 wrong answer, you are out)     next(if one wrong answer, you are out)
+	.
+	10	20
+	next	next
+
+
+(your subjects)
+----------------------
+python 1    |   C++   |                       
+	    |				        	   
+(color for  |				
+dificulty)  |
+(percentage)|
+stars for   |
+dificulty)  |						python 1 ->  if open ai says, that it is learned - it will suggest new subject, or existed subject.
+-----------------------
+java 1      |  html   |					you can restart it, after ending or if you wnat it will transform from subject to a 
+-----------------------
+css         |  openai |
+-----------------------
+machine     |  
+learning    |
